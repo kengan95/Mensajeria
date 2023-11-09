@@ -1,0 +1,41 @@
+.btns-arriba {
+    height: 10%;
+}
+
+.tamaño {
+    height: 80vh;
+}
+
+.tamaño2 {
+    height: 90vh;
+}
+
+.header__h2 {
+    font-size: 24pt;
+    line-height: 45pt;
+}
+
+.seccion__grid-clientes {
+    width: 100%;
+    height: 60vh;
+}
+
+.bgCards {
+    background-color: rgba(141, 140, 140, 0.596) !important;
+}
+
+.seccion__Grid-imagen {
+    height: 60%;
+}
+
+.cardTam {
+    height: 40vh;
+}
+
+@media (max-width: 768px) {
+    .tamaño {
+        height: 100vh;
+        display: flex;
+        flex-direction: column !important;
+    }
+}
